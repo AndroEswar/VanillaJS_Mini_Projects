@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 40px;
+  align-items: center;
+  flex-direction: column;
+  background-color: turquoise;
+  width: 100vw;
+  height: 100vh;
+}
+
+.accordionHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 6px;
+  padding: 10px;
+  width: 800px;
+}
+
+.title {
+  /* padding: 5px; */
+  font-size: 18px;
+  font-weight: 800;
+  flex: auto;
+}
+
+.rightAddon {
+  padding: 7px;
+  font-size: 18px;
+  font-weight: 800;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.accordionContent {
+  display: none;
+  width: 800px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 5px;
+  box-shadow: 5px 10px 18px darkgrey;
+}
+
+.showContent {
+  display: flex;
+}
+
+.content {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  font-family: cursive;
+}
