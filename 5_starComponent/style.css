@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: peachpuff;
+}
+
+.container {
+  background-color: #FFF;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.star {
+  font-size: 3rem;
+  background: none;
+  border: none;
+  color: orange;
+}
+
+.star:hover {
+  cursor: pointer;
+}
+
+.reset button {
+  font-size: 2rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
